@@ -101,8 +101,7 @@ Esta separación existe por una razón concreta, no solo por estilo: la implemen
 │   ├── test_diversity.py
 │   └── test_ordination.py
 ├── enigma.metadata.txt                           # Metadatos ambientales por pozo
-├── otu_table_resampled_updated_r.txt             # Tabla de OTUs (16S rRNA V4)
-└── feedback_profesor.pdf                         # Retroalimentación recibida (evidencia de evaluación externa)
+└── otu_table_resampled_updated_r.txt             # Tabla de OTUs (16S rRNA V4)
 ```
 
 ## Autora
