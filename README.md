@@ -6,6 +6,7 @@
 ![scikit--bio](https://img.shields.io/badge/scikit--bio-diversity-green?style=flat)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
+[![CI](https://github.com/KARCOR/enigma-microbial-diversity/actions/workflows/lint-test.yml/badge.svg)](https://github.com/KARCOR/enigma-microbial-diversity/actions/workflows/lint-test.yml)
 
 ## Contenido
 
