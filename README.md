@@ -6,7 +6,7 @@
 
 Análisis de diversidad bacteriana (16S rRNA V4) en 67 pozos de agua subterránea, usando datos reales de secuenciación masiva y su relación con variables fisicoquímicas ambientales.
 
-> Esta es la pieza que más conecta mi trabajo previo en microbiología con análisis de datos: mismo tipo de pregunta que trabajaba en el laboratorio — qué factores ambientales explican la composición de una comunidad microbiana — resuelta aquí con un flujo de datos completo en Python en vez de solo con herramientas de wet-lab.
+> Aborda una pregunta clásica de ecología microbiana — qué factores ambientales explican la composición de una comunidad — con un flujo de datos completo en Python: desde el diagnóstico de datos faltantes hasta la interpretación biológica del resultado.
 
 ---
 
