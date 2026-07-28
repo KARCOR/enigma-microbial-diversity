@@ -1,5 +1,23 @@
 # Diversidad Microbiana en Aguas Subterráneas — Estudio ENIGMA
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
+![scikit--bio](https://img.shields.io/badge/scikit--bio-diversity-green?style=flat)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
+
+## Contenido
+
+- [Dataset](#dataset)
+- [Pregunta analítica](#pregunta-analítica)
+- [Metodología](#metodología)
+- [Hallazgos principales](#hallazgos-principales)
+- [Fundamento científico y metodológico](#fundamento-científico-y-metodológico)
+- [Rigor de reporte científico](#rigor-de-reporte-científico)
+- [Código testeado: `enigma_diversity/`](#código-testeado-enigma_diversity)
+- [Estructura del repositorio](#estructura-del-repositorio)
+
 **Pregunta:** ¿qué variables fisicoquímicas explican la diversidad bacteriana de un pozo de agua subterránea, y qué tan distintas son las comunidades entre pozos?
 
 **Resultado en una frase:** en 67 pozos, la diversidad bacteriana correlaciona más fuerte con metales poco monitoreados (aluminio, cadmio, potasio, cobre, litio, sodio) que con las variables clásicas (pH, Fe, Mn, U) — hallazgo con implicación directa para rediseñar un panel de monitoreo ambiental.
@@ -32,6 +50,8 @@ Análisis de diversidad bacteriana (16S rRNA V4) en 67 pozos de agua subterráne
 5. Interpretación biológica de cada resultado, limitaciones y recomendaciones para monitoreo ambiental futuro.
 
 ## Hallazgos principales
+
+![Correlación de variables ambientales con diversidad Shannon](results/enigma_06.png)
 
 - Los 67 pozos muestran variabilidad considerable en las cuatro métricas de diversidad alfa — no explicada por diferencias en profundidad de secuenciación (ya rarefaccionada).
 - La mayoría de los pares de pozos presentan disimilitud media-alta en composición bacteriana (Bray-Curtis); el PCoA solo explica 17.6% de la varianza total (PC1: 10.3%, PC2: 7.3%), señal de que la estructura de las comunidades es compleja y no se reduce a 2 ejes.
@@ -72,7 +92,7 @@ Esta separación existe por una razón concreta, no solo por estilo: la implemen
 ├── README.md
 ├── STREAMS_checklist.md                          # Autoevaluación contra el estándar de reporte STREAMS (2025)
 ├── requirements.txt                               # Dependencias Python (pip install -r requirements.txt)
-├── analisis_diversidad_microbiana_ENIGMA.ipynb   # Notebook completo (18 secciones: intro → conclusiones → guion de sustentación)
+├── analisis_diversidad_microbiana_ENIGMA.ipynb   # Notebook completo (18 secciones: intro → metodología → resultados → resumen ejecutivo)
 ├── enigma_diversity/                             # Paquete Python: Chao1, Shannon, Simpson, PCoA (testeado)
 │   ├── __init__.py
 │   ├── diversity.py
